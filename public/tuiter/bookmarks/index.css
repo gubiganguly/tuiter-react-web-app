@@ -1,0 +1,112 @@
+.wd-bookmarks {
+    position: relative;
+    padding: 16px;
+}
+
+.wd-bookmarks .wd-title {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-size: 20px;
+    color: white;
+}
+
+.wd-handle {
+    color: lightgray;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+
+.wd-post {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.wd-profile_img {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+}
+
+.wd-author {
+    position: relative;
+    left: 76px;
+    top: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-post > .wd-author > .wd-handle {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-paragraph {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    width: 506px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.wd-image_text {
+    position: relative;
+    left: 76px;
+    width: 504px;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-radius: 20px;
+
+}
+
+.wd-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-title_text {
+    padding: 12px;
+}
+
+.wd-image_text .wd-title {
+    color: white;
+}
+
+.wd-image_text .wd-text {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-icons {
+    padding: 12px;
+    position: relative;
+    left: 76px;
+    float: left;
+    color: gray;
+}
+
+.wd-icons > a {
+    margin-right: 70px;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.wd-icons i {
+    margin-right: 12px;
+}
+
+.wd-icons .selected {
+    color: red;
+}
+
+
+

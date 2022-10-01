@@ -1,0 +1,101 @@
+
+.wd-navbar {
+    padding: 16px;
+}
+
+.wd-border {
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+
+.wd-search_and_settings {
+    width: 100%;
+}
+
+.wd-search {
+    background-color: darkgray;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 95%;
+    height: 25px;
+    padding-left: 30px;
+}
+
+.wd-gear {
+    float: right;
+    margin-right: 12px;
+    color: rgb(29, 161, 242);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.wd-categories {
+    padding-top: 20px;
+
+}
+
+.wd-categories .wd-category {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.wd-categories > .wd-selected {
+    color: rgb(29, 161, 242);
+    border-bottom: 4px solid rgb(29, 161, 242);
+    border-radius: 2px;
+}
+
+.wd-suggested_tweets{
+    margin-top: 10px;
+}
+
+.wd-suggested {
+    position: relative;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.wd-title {
+    color: white;
+    font-size: 18px;
+}
+
+.wd-supporting_text{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggested i {
+    float: right;
+    color: darkgray;
+}
+
+.wd-profile_img {
+    position: relative;
+    top: 2px;
+    border-radius: 25px;
+    width: 16px;
+    height: 16px;
+}
+
+.wd-author {
+    color: white;
+    font-size: 16px;
+}
+
+.wd-clickbait {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+
+
+
+
