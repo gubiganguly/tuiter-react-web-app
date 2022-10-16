@@ -4,7 +4,7 @@ const ExploreComponent = () => {
     return(`
             <div class="row d-inline">
                 <i class="fa-solid fa-magnifying-glass wd-search-icon ms-2"></i>
-                <input class="wd-search position-relative ps-5" type="text" placeholder="Search Tuiter">
+                <input class="wd-search position-relative ps-5 ms-2" type="text" placeholder="Search Tuiter">
                 <a class="wd-gear" href="explore-settings.html"><i class="fa-sharp fa-solid fa-gear" style="font-size: 1.3em; float: right; color: rgb(29, 161, 242);"></i></a>
            </div>
            <ul class="nav mt-2 nav-tabs">
