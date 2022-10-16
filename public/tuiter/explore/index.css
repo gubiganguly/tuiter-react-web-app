@@ -1,9 +1,9 @@
 .wd-search {
     width: 95%;
     border-radius: 25px;
-    border-width: 0.5px;
-    border-color: lightgray;
+    border: none;
     outline:none;
+    background-color: white;
 }
 
 .wd-search-icon {
@@ -42,6 +42,5 @@
 
 .wd-follow_button {
     float: right;
-    border-radius: 25px;
-    border: none;
+
 }
