@@ -4,7 +4,7 @@ import TuitStats from "../tuit-stats";
 import {useDispatch} from "react-redux";
 import { deleteTuit } from "../tuits-reducer";
 
-const PostSummaryItem = ({ post }) => {
+const TuitItem = ({ tuit }) => {
 
     const dispatch = useDispatch()
     const deleteTuitHandler = (id) => {
@@ -15,21 +15,21 @@ const PostSummaryItem = ({ post }) => {
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img width={50} className="float-start rounded-circle" src={`/images/${post.image}`} />
+                    <img width={50} className="float-start rounded-circle" src={`/images/${tuit.image}`} />
                 </div>
                 <div className="col-11 ps-4">
                     <div>
-                        <i className="bi bi-x-lg float-end"onClick={() => deleteTuitHandler(post._id)}></i>
-                        <span className="fw-bolder">{post.userName}  </span>
+                        <i className="bi bi-x-lg float-end"onClick={() => deleteTuitHandler(tuit._id)}></i>
+                        <span className="fw-bolder">{tuit.userName}  </span>
                         <i className="fa-solid fa-check bg-primary rounded-circle text-light p-1" style={{ fontSize: 10 }}></i>
-                        <span>  {post.handle} · {post.time}</span>
+                        <span>  {tuit.handle} · {tuit.time}</span>
                     </div>
-                    <div>{post.tuit}</div>
-                    <TuitStats likes={post.likes} liked={post.liked} retuits={post.retuits} replies={post.replies} />
+                    <div>{tuit.tuit}</div>
+                    <TuitStats likes={tuit.likes} liked={tuit.liked} retuits={tuit.retuits} replies={tuit.replies} />
                 </div>
 
             </div>
         </li>
     );
 };
-export default PostSummaryItem;
+export default TuitItem; 

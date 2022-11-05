@@ -9,6 +9,7 @@ import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer"
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from "react-redux";
+
 const store = configureStore(
   {
     reducer: {
@@ -17,8 +18,6 @@ const store = configureStore(
     }
   }
 );
-
-
 
 function Tuiter() {
   const location = useLocation()
