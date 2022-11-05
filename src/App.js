@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/*"
             element={<Labs />} />
-          <Route path="/tuiter"
+          <Route path="/tuiter/*"
             element={<Tuiter />} />
         </Routes>
       </div>

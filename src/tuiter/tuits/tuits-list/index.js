@@ -1,5 +1,5 @@
 import React from "react";
-import PostSummaryItem from "./post-summary-item";
+import TuitItem from "./tuit-item.js";
 import { useSelector } from "react-redux";
 
 const PostSummaryList = () => {
@@ -8,7 +8,7 @@ const PostSummaryList = () => {
    <ul className="list-group">
      {
        postsArray.map(post =>
-         <PostSummaryItem
+         <TuitItem
            key={post._id} post={post}/> )
      }
    </ul>
