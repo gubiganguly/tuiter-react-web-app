@@ -21,7 +21,7 @@ const TuitItem = ({ tuit }) => {
                 <div className="col-11 ps-4">
                     <div>
                         <i className="bi bi-x-lg float-end"onClick={() => deleteTuitHandler(tuit._id)}></i>
-                        <span className="fw-bolder">{tuit.userName}  </span>
+                        <span className="fw-bolder">{tuit.username}  </span>
                         <i className="fa-solid fa-check bg-primary rounded-circle text-light p-1" style={{ fontSize: 10 }}></i>
                         <span>  {tuit.handle} · {tuit.time}</span>
                     </div>
