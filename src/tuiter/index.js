@@ -14,7 +14,7 @@ const store = configureStore(
   {
     reducer: {
       who: whoReducer,
-      tuits: tuitsReducer
+      tuitData: tuitsReducer
     }
   }
 );

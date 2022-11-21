@@ -3,12 +3,13 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import TuitStats from "../tuit-stats";
 import {useDispatch} from "react-redux";
 import { deleteTuit } from "../tuits-reducer";
+import { deleteTuitThunk } from "../../../services/tuits-thunks";
 
 const TuitItem = ({ tuit }) => {
 
     const dispatch = useDispatch()
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -25,7 +26,7 @@ const TuitItem = ({ tuit }) => {
                         <span>  {tuit.handle} · {tuit.time}</span>
                     </div>
                     <div>{tuit.tuit}</div>
-                    <TuitStats likes={tuit.likes} liked={tuit.liked} retuits={tuit.retuits} replies={tuit.replies} />
+                    <TuitStats likes={tuit.likes} liked={tuit.liked} retuits={tuit.retuits} replies={tuit.replies}  tuit={tuit}/>
                 </div>
 
             </div>
